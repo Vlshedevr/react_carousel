@@ -26,8 +26,6 @@
   }
 
   &__img {
-  width: 130px; 
-  height: 130px;
   display: block;
   object-fit: cover;
 }
@@ -47,7 +45,7 @@
 
     &--prev{
       left: 0;
-      transform: translate(0, -50%);;
+      transform: translate(0, -50%);
     }
 
     &--next{

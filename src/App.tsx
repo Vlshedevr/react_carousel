@@ -30,6 +30,10 @@ class App extends React.Component<{}, State> {
     animationDuration: 1000,
   };
 
+  componentDidMount(): void {
+    document.title = 'Carousel';
+  }
+
   render() {
     const { images, itemWidth, frameSize, step, animationDuration } =
       this.state;
